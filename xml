@@ -1061,7 +1061,7 @@ if ($option -eq "exit"){ exit }
 
             if ($Thepasswordis -eq $null){
 
-               $brute = & 'C:\Program Files\7-Zip\7z.exe' e "$ziploc" -p"$i" -y
+               $brute =  'C:\Program Files\7-Zip\7z.exe' e "$ziploc" -p"$i" -y
 
 
                     if ($brute -contains "Everything is Ok"){
